@@ -17,6 +17,8 @@ int main()
    t.insert("H");
    t.insert("J");
    t.print();
+   cout << "Print post order: " << endl;
+   t.printPostOrder();
    cout << "Removing A, B, F, D" << endl;
    t.erase("A"); // Removing leaf
    t.erase("B"); // Removing element with one child

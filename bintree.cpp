@@ -14,6 +14,12 @@ void BinarySearchTree::print() const
       root->print_nodes();
 }
 
+void BinarySearchTree::printPostOrder() const
+{
+	if (root != NULL)
+		root->print_nodesPostOrder();
+}
+
 void BinarySearchTree::insert(string data)
 {  
    TreeNode* new_node = new TreeNode;

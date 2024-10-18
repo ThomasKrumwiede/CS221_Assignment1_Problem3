@@ -12,6 +12,7 @@ public:
    void erase(string data);
    int count(string data) const;
    void print() const;
+   void printPostOrder() const;
 private:
    TreeNode* root;
 };

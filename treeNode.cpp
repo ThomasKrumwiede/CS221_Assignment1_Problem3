@@ -46,3 +46,15 @@ void TreeNode::print_nodes() const
    
 }
 
+void TreeNode::print_nodesPostOrder() const
+{
+	if (right != NULL)
+		right->print_nodes();
+	cout << data << "\n";
+	if (left != NULL)
+		left->print_nodes();
+
+
+}
+
+

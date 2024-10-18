@@ -9,6 +9,7 @@ class TreeNode
 public:
    void insert_node(TreeNode* new_node);
    void print_nodes() const;
+   void print_nodesPostOrder() const;
    bool find(string value) const;
 private:
    string data;
